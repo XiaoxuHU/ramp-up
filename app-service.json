@@ -1,0 +1,51 @@
+{
+    "responses": [
+        {
+            "httpStatusCode": 200,
+            "headers": {
+                "Pragma": "no-cache",
+                "Vary": "Accept-Encoding",
+                "x-ms-ratelimit-remaining-tenant-reads": "11999",
+                "x-ms-request-id": "7789adcb-954f-4109-85ce-f9c96cf3883a",
+                "x-ms-correlation-request-id": "23e7083b-1b1b-4d6d-aaf9-84a09abc02b6",
+                "x-ms-routing-request-id": "WESTUS2:20190725T061554Z:7789adcb-954f-4109-85ce-f9c96cf3883a",
+                "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+                "X-Content-Type-Options": "nosniff",
+                "Cache-Control": "no-cache",
+                "Date": "Thu, 25 Jul 2019 06:15:53 GMT"
+            },
+            "content": {
+                "value": [
+                    {
+                        "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu",
+                        "name": "book-rental-xiaoxu",
+                        "type": "Microsoft.Web/sites",
+                        "kind": "app",
+                        "location": "southcentralus",
+                        "tags": {
+                            "hidden-related:/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourcegroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/serverfarms/book-rental-xiaoxu-plan": "empty"
+                        }
+                    },
+                    {
+                        "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/xiaoxu-add/providers/Microsoft.Web/sites/xiaoxu-add",
+                        "name": "xiaoxu-add",
+                        "type": "Microsoft.Web/sites",
+                        "kind": "functionapp",
+                        "location": "centralus"
+                    },
+                    {
+                        "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/xiaoxu-resource/providers/Microsoft.Web/sites/xiaoxu-application",
+                        "name": "xiaoxu-application",
+                        "type": "Microsoft.Web/sites",
+                        "kind": "app,linux",
+                        "location": "centralus",
+                        "tags": {
+                            "cli": "webapp_up"
+                        }
+                    }
+                ]
+            },
+            "contentLength": 927
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+<div>
+  <div *ngFor="let detector of detectors" class="row" style="margin: 20px auto">
+    <div class="col-lg-8">
+      <app-detector [detectorId]="detector.id"></app-detector>
+    </div>
+  </div>
+</div>

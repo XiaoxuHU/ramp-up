@@ -1,0 +1,19 @@
+<div>
+  <div>
+    <label>Token</label>
+    <textarea [(ngModel)]="token" row="15" cols="35"></textarea>
+  </div>
+  <div>
+    <button (click)="setToken()" class="btn btn-primary btn-sm">
+      Get Subscriptions
+    </button>
+  </div>
+  <div>
+    <label>Select Subscription</label>
+    <select [(ngModel)]="selectedSubId">
+      <option *ngFor="let subInfo of subInfoArray" [value]="subInfo.subscriptionId">{{subInfo.displayName}}</option>
+    </select>
+  </div>
+
+  <button (click)="getWebApps()" class="btn btn-primary btn-sm">Get Web Apps</button>
+</div>

@@ -1,0 +1,9 @@
+<div class="card">
+  <h5 class="card-header">{{wb.name}}</h5>
+  <div class="card-body">
+    <p class="card-text">state : {{wb.properties.state}}</p>
+    <p class="card-text">Resource Group : {{wb.properties.resourceGroup}}</p>
+    <p class="card-text">location : {{wb.location}}</p>
+    <button class="btn btn-primary" (click)="clickHandler()">App Detail</button>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<div *ngFor="let msg of messages" class="alert"
+  [ngClass] = "{ 'alert-warning' : msg.status === 'Warning', 'alert-success' : msg.status === 'Success','alert-info' : msg.status === 'Info' ,'alert-danger' : 'Critical'}"
+>
+    {{msg.message}}
+</div>

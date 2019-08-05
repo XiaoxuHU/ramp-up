@@ -1,0 +1,3084 @@
+// https://management.azure.com/subscriptions/{subscriptionId}/providers/Microsoft.Web/sites?api-version=2016-08-01
+{
+    "value": [
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu",
+            "name": "book-rental-xiaoxu",
+            "type": "Microsoft.Web/sites",
+            "kind": "app",
+            "location": "South Central US",
+            "tags": {
+                "hidden-related:/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourcegroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/serverfarms/book-rental-xiaoxu-plan": "empty"
+            },
+            "properties": {
+                "name": "book-rental-xiaoxu",
+                "state": "Running",
+                "hostNames": [
+                    "book-rental-xiaoxu.azurewebsites.net"
+                ],
+                "webSpace": "book-rental-xiaoxu-rg-SouthCentralUSwebspace",
+                "selfLink": "https://waws-prod-sn1-103.api.azurewebsites.windows.net:454/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/webspaces/book-rental-xiaoxu-rg-SouthCentralUSwebspace/sites/book-rental-xiaoxu",
+                "repositorySiteName": "book-rental-xiaoxu",
+                "owner": null,
+                "usageState": "Normal",
+                "enabled": true,
+                "adminEnabled": true,
+                "enabledHostNames": [
+                    "book-rental-xiaoxu.azurewebsites.net",
+                    "book-rental-xiaoxu.scm.azurewebsites.net"
+                ],
+                "siteProperties": {
+                    "metadata": null,
+                    "properties": [
+                        {
+                            "name": "LinuxFxVersion",
+                            "value": ""
+                        },
+                        {
+                            "name": "WindowsFxVersion",
+                            "value": null
+                        }
+                    ],
+                    "appSettings": null
+                },
+                "availabilityState": "Normal",
+                "sslCertificates": [],
+                "csrs": [],
+                "cers": null,
+                "siteMode": "Limited",
+                "hostNameSslStates": [
+                    {
+                        "name": "book-rental-xiaoxu.azurewebsites.net",
+                        "sslState": "Disabled",
+                        "ipBasedSslResult": null,
+                        "virtualIP": null,
+                        "thumbprint": null,
+                        "toUpdate": null,
+                        "toUpdateIpBasedSsl": null,
+                        "ipBasedSslState": "NotConfigured",
+                        "hostType": "Standard"
+                    },
+                    {
+                        "name": "book-rental-xiaoxu.scm.azurewebsites.net",
+                        "sslState": "Disabled",
+                        "ipBasedSslResult": null,
+                        "virtualIP": null,
+                        "thumbprint": null,
+                        "toUpdate": null,
+                        "toUpdateIpBasedSsl": null,
+                        "ipBasedSslState": "NotConfigured",
+                        "hostType": "Repository"
+                    }
+                ],
+                "computeMode": "Dedicated",
+                "serverFarm": null,
+                "serverFarmId": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/serverfarms/book-rental-xiaoxu-plan",
+                "reserved": false,
+                "isXenon": false,
+                "hyperV": false,
+                "lastModifiedTimeUtc": "2019-06-27T04:48:02.78",
+                "storageRecoveryDefaultState": "Running",
+                "contentAvailabilityState": "Normal",
+                "runtimeAvailabilityState": "Normal",
+                "siteConfig": null,
+                "deploymentId": "book-rental-xiaoxu",
+                "trafficManagerHostNames": null,
+                "sku": "Standard",
+                "scmSiteAlsoStopped": false,
+                "targetSwapSlot": null,
+                "hostingEnvironment": null,
+                "hostingEnvironmentProfile": null,
+                "clientAffinityEnabled": true,
+                "clientCertEnabled": false,
+                "clientCertExclusionPaths": null,
+                "hostNamesDisabled": false,
+                "domainVerificationIdentifiers": null,
+                "kind": "app",
+                "inboundIpAddress": "13.84.181.47",
+                "possibleInboundIpAddresses": "13.84.181.47",
+                "outboundIpAddresses": "13.84.181.47,13.84.179.88,13.84.181.114,13.84.180.87,13.84.182.151",
+                "possibleOutboundIpAddresses": "13.84.181.47,13.84.179.88,13.84.181.114,13.84.180.87,13.84.182.151,104.214.95.11,104.214.94.211,40.74.248.68",
+                "containerSize": 0,
+                "dailyMemoryTimeQuota": 0,
+                "suspendedTill": null,
+                "siteDisabledReason": 0,
+                "functionExecutionUnitsCache": null,
+                "maxNumberOfWorkers": null,
+                "homeStamp": "waws-prod-sn1-103",
+                "cloningInfo": null,
+                "hostingEnvironmentId": null,
+                "tags": {
+                    "hidden-related:/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourcegroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/serverfarms/book-rental-xiaoxu-plan": "empty"
+                },
+                "resourceGroup": "book-rental-xiaoxu-rg",
+                "defaultHostName": "book-rental-xiaoxu.azurewebsites.net",
+                "slotSwapStatus": null,
+                "httpsOnly": false,
+                "redundancyMode": "None",
+                "inProgressOperationId": null,
+                "geoDistributions": null,
+                "privateEndpointConnections": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/xiaoxu-add/providers/Microsoft.Web/sites/xiaoxu-add",
+            "name": "xiaoxu-add",
+            "type": "Microsoft.Web/sites",
+            "kind": "functionapp",
+            "location": "Central US",
+            "properties": {
+                "name": "xiaoxu-add",
+                "state": "Running",
+                "hostNames": [
+                    "xiaoxu-add.azurewebsites.net"
+                ],
+                "webSpace": "xiaoxu-add-CentralUSwebspace",
+                "selfLink": "https://waws-prod-dm1-131.api.azurewebsites.windows.net:454/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/webspaces/xiaoxu-add-CentralUSwebspace/sites/xiaoxu-add",
+                "repositorySiteName": "xiaoxu-add",
+                "owner": null,
+                "usageState": "Normal",
+                "enabled": true,
+                "adminEnabled": true,
+                "enabledHostNames": [
+                    "xiaoxu-add.azurewebsites.net",
+                    "xiaoxu-add.scm.azurewebsites.net"
+                ],
+                "siteProperties": {
+                    "metadata": null,
+                    "properties": [
+                        {
+                            "name": "LinuxFxVersion",
+                            "value": ""
+                        },
+                        {
+                            "name": "WindowsFxVersion",
+                            "value": null
+                        }
+                    ],
+                    "appSettings": null
+                },
+                "availabilityState": "Normal",
+                "sslCertificates": [],
+                "csrs": [],
+                "cers": null,
+                "siteMode": "Limited",
+                "hostNameSslStates": [
+                    {
+                        "name": "xiaoxu-add.azurewebsites.net",
+                        "sslState": "Disabled",
+                        "ipBasedSslResult": null,
+                        "virtualIP": null,
+                        "thumbprint": null,
+                        "toUpdate": null,
+                        "toUpdateIpBasedSsl": null,
+                        "ipBasedSslState": "NotConfigured",
+                        "hostType": "Standard"
+                    },
+                    {
+                        "name": "xiaoxu-add.scm.azurewebsites.net",
+                        "sslState": "Disabled",
+                        "ipBasedSslResult": null,
+                        "virtualIP": null,
+                        "thumbprint": null,
+                        "toUpdate": null,
+                        "toUpdateIpBasedSsl": null,
+                        "ipBasedSslState": "NotConfigured",
+                        "hostType": "Repository"
+                    }
+                ],
+                "computeMode": "Dynamic",
+                "serverFarm": null,
+                "serverFarmId": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/xiaoxu-add/providers/Microsoft.Web/serverfarms/CentralUSPlan",
+                "reserved": false,
+                "isXenon": false,
+                "hyperV": false,
+                "lastModifiedTimeUtc": "2019-07-19T04:54:03.9433333",
+                "storageRecoveryDefaultState": "Running",
+                "contentAvailabilityState": "Normal",
+                "runtimeAvailabilityState": "Normal",
+                "siteConfig": null,
+                "deploymentId": "xiaoxu-add",
+                "trafficManagerHostNames": null,
+                "sku": "Dynamic",
+                "scmSiteAlsoStopped": false,
+                "targetSwapSlot": null,
+                "hostingEnvironment": null,
+                "hostingEnvironmentProfile": null,
+                "clientAffinityEnabled": false,
+                "clientCertEnabled": false,
+                "clientCertExclusionPaths": null,
+                "hostNamesDisabled": false,
+                "domainVerificationIdentifiers": null,
+                "kind": "functionapp",
+                "inboundIpAddress": "23.101.119.44",
+                "possibleInboundIpAddresses": "23.101.119.44",
+                "outboundIpAddresses": "23.101.119.44,23.99.215.110,23.99.213.182,168.61.218.60,23.99.208.251",
+                "possibleOutboundIpAddresses": "23.101.119.44,23.99.215.110,23.99.213.182,168.61.218.60,23.99.208.251,23.99.211.22,23.99.209.158,23.99.214.44",
+                "containerSize": 1536,
+                "dailyMemoryTimeQuota": 0,
+                "suspendedTill": null,
+                "siteDisabledReason": 0,
+                "functionExecutionUnitsCache": null,
+                "maxNumberOfWorkers": null,
+                "homeStamp": "waws-prod-dm1-131",
+                "cloningInfo": null,
+                "hostingEnvironmentId": null,
+                "tags": null,
+                "resourceGroup": "xiaoxu-add",
+                "defaultHostName": "xiaoxu-add.azurewebsites.net",
+                "slotSwapStatus": null,
+                "httpsOnly": false,
+                "redundancyMode": "None",
+                "inProgressOperationId": null,
+                "geoDistributions": null,
+                "privateEndpointConnections": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/xiaoxu-resource/providers/Microsoft.Web/sites/xiaoxu-application",
+            "name": "xiaoxu-application",
+            "type": "Microsoft.Web/sites",
+            "kind": "app,linux",
+            "location": "Central US",
+            "tags": {
+                "cli": "webapp_up"
+            },
+            "properties": {
+                "name": "xiaoxu-application",
+                "state": "Running",
+                "hostNames": [
+                    "xiaoxu-application.azurewebsites.net"
+                ],
+                "webSpace": "tjhuxiaoxu_rg_Linux_centralus-CentralUSwebspace",
+                "selfLink": "https://waws-prod-dm1-123.api.azurewebsites.windows.net:454/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/webspaces/tjhuxiaoxu_rg_Linux_centralus-CentralUSwebspace/sites/xiaoxu-application",
+                "repositorySiteName": "xiaoxu-application",
+                "owner": null,
+                "usageState": "Normal",
+                "enabled": true,
+                "adminEnabled": true,
+                "enabledHostNames": [
+                    "xiaoxu-application.azurewebsites.net",
+                    "xiaoxu-application.scm.azurewebsites.net"
+                ],
+                "siteProperties": {
+                    "metadata": null,
+                    "properties": [
+                        {
+                            "name": "LinuxFxVersion",
+                            "value": "node|10.14"
+                        },
+                        {
+                            "name": "WindowsFxVersion",
+                            "value": null
+                        }
+                    ],
+                    "appSettings": null
+                },
+                "availabilityState": "Normal",
+                "sslCertificates": [],
+                "csrs": [],
+                "cers": null,
+                "siteMode": "Limited",
+                "hostNameSslStates": [
+                    {
+                        "name": "xiaoxu-application.azurewebsites.net",
+                        "sslState": "Disabled",
+                        "ipBasedSslResult": null,
+                        "virtualIP": null,
+                        "thumbprint": null,
+                        "toUpdate": null,
+                        "toUpdateIpBasedSsl": null,
+                        "ipBasedSslState": "NotConfigured",
+                        "hostType": "Standard"
+                    },
+                    {
+                        "name": "xiaoxu-application.scm.azurewebsites.net",
+                        "sslState": "Disabled",
+                        "ipBasedSslResult": null,
+                        "virtualIP": null,
+                        "thumbprint": null,
+                        "toUpdate": null,
+                        "toUpdateIpBasedSsl": null,
+                        "ipBasedSslState": "NotConfigured",
+                        "hostType": "Repository"
+                    }
+                ],
+                "computeMode": "Dedicated",
+                "serverFarm": null,
+                "serverFarmId": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/xiaoxu-resource/providers/Microsoft.Web/serverfarms/tjhuxiaoxu_asp_Linux_centralus_0",
+                "reserved": true,
+                "isXenon": false,
+                "hyperV": false,
+                "lastModifiedTimeUtc": "2019-08-01T18:01:33.61",
+                "storageRecoveryDefaultState": "Running",
+                "contentAvailabilityState": "Normal",
+                "runtimeAvailabilityState": "Normal",
+                "siteConfig": null,
+                "deploymentId": "xiaoxu-application",
+                "trafficManagerHostNames": null,
+                "sku": "PremiumV2",
+                "scmSiteAlsoStopped": false,
+                "targetSwapSlot": null,
+                "hostingEnvironment": null,
+                "hostingEnvironmentProfile": null,
+                "clientAffinityEnabled": true,
+                "clientCertEnabled": false,
+                "clientCertExclusionPaths": null,
+                "hostNamesDisabled": false,
+                "domainVerificationIdentifiers": null,
+                "kind": "app,linux",
+                "inboundIpAddress": "168.61.159.114",
+                "possibleInboundIpAddresses": "168.61.159.114",
+                "outboundIpAddresses": "168.61.146.106,168.61.150.120,168.61.184.160,168.61.191.29,168.61.191.135",
+                "possibleOutboundIpAddresses": "168.61.159.114,168.61.150.239,168.61.185.74,168.61.185.197,168.61.146.253,168.61.146.106,168.61.150.120,168.61.184.160,168.61.191.29,168.61.191.135",
+                "containerSize": 0,
+                "dailyMemoryTimeQuota": 0,
+                "suspendedTill": null,
+                "siteDisabledReason": 0,
+                "functionExecutionUnitsCache": null,
+                "maxNumberOfWorkers": null,
+                "homeStamp": "waws-prod-dm1-123",
+                "cloningInfo": null,
+                "hostingEnvironmentId": null,
+                "tags": {
+                    "cli": "webapp_up"
+                },
+                "resourceGroup": "xiaoxu-resource",
+                "defaultHostName": "xiaoxu-application.azurewebsites.net",
+                "slotSwapStatus": null,
+                "httpsOnly": false,
+                "redundancyMode": "None",
+                "inProgressOperationId": null,
+                "geoDistributions": null,
+                "privateEndpointConnections": null
+            }
+        }
+    ],
+    "nextLink": null,
+    "id": null
+}
+//https://management.azure.com/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourcegroups/book-rental-xiaoxu-rg/providers/microsoft.web/sites/book-rental-xiaoxu/detectors?api-version=2015-08-01
+{
+    "value": [
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/allscalingoperations",
+            "name": "allscalingoperations",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "allscalingoperations",
+                    "name": "All Scaling Operations",
+                    "category": null,
+                    "author": "",
+                    "description": "This view shows all the Manual and AutoScaling operations for the web app",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/AlwaysOnCheckForBestPractice",
+            "name": "AlwaysOnCheckForBestPractice",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "AlwaysOnCheckForBestPractice",
+                    "name": "AlwaysOn Check",
+                    "category": null,
+                    "author": "",
+                    "description": "Checks to see if AlwaysOn is enabled or not.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/appperformance",
+            "name": "appperformance",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "appperformance",
+                    "name": "App Performance",
+                    "category": null,
+                    "author": "",
+                    "description": "",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/AppServiceAdvisorRecommendations",
+            "name": "AppServiceAdvisorRecommendations",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "AppServiceAdvisorRecommendations",
+                    "name": "App Service Advisor Recommendations",
+                    "category": null,
+                    "author": "",
+                    "description": "Displays the AppService Advisor recommendation.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/ActiveSitesOnASP",
+            "name": "ActiveSitesOnASP",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "ActiveSitesOnASP",
+                    "name": "App Service Plan Density Check",
+                    "category": null,
+                    "author": "",
+                    "description": "Checks to see if the App Service Plan hosts more than 15 active sites.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": [
+                        "appDownAnalysis",
+                        "perfAnalysis"
+                    ],
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/appchanges",
+            "name": "appchanges",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "appchanges",
+                    "name": "Application Changes",
+                    "category": "Availability and Performance",
+                    "author": "",
+                    "description": "This view will show the changes made to your web app in last 14 days.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/appcrashes",
+            "name": "appcrashes",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "appcrashes",
+                    "name": "Application Crashes",
+                    "category": "Availability and Performance",
+                    "author": "",
+                    "description": "Detects Application crashes and related events for your application.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": [
+                        "appDownAnalysis",
+                        "perfAnalysis"
+                    ],
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/ARRAffinityCheck",
+            "name": "ARRAffinityCheck",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "ARRAffinityCheck",
+                    "name": "ARR Affinity Check",
+                    "category": null,
+                    "author": "",
+                    "description": "Checks to see if the site has ARRAffinity configured.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/AutoHealCheckForBestPractice",
+            "name": "AutoHealCheckForBestPractice",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "AutoHealCheckForBestPractice",
+                    "name": "AutoHeal Check",
+                    "category": null,
+                    "author": "",
+                    "description": "Checks to see if auto heal is enabled.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/ParentAvailabilityAndPerformance",
+            "name": "ParentAvailabilityAndPerformance",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "ParentAvailabilityAndPerformance",
+                    "name": "Best Practices for Availability & Performance",
+                    "category": "Best Practices",
+                    "author": "",
+                    "description": "Check best practices for Availability and Performance.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/ParentConfigurationManagement",
+            "name": "ParentConfigurationManagement",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "ParentConfigurationManagement",
+                    "name": "Best Practices for Optimal Configuration",
+                    "category": "Best Practices",
+                    "author": "",
+                    "description": "Check best practices for Configuration and Management.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/CustomDomainAndSSL",
+            "name": "CustomDomainAndSSL",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "CustomDomainAndSSL",
+                    "name": "Binding & SSL Configuration",
+                    "category": "SSL and Domains",
+                    "author": "",
+                    "description": "Analyze the DNS and Server Certificate configured on a site and detect possible misconfigurations",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/CertificateBindingOperations",
+            "name": "CertificateBindingOperations",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "CertificateBindingOperations",
+                    "name": "Certificate Binding Operations",
+                    "category": "SSL and Domains",
+                    "author": "",
+                    "description": "This view shows SSL certificate binding operations and their results.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/certificatedeleteoperations",
+            "name": "certificatedeleteoperations",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "certificatedeleteoperations",
+                    "name": "Certificate Delete Operations",
+                    "category": "SSL and Domains",
+                    "author": "",
+                    "description": "This view shows all the certificate delete operations and identifies successful vs. failed operations",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/certificateuploadoperations",
+            "name": "certificateuploadoperations",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "certificateuploadoperations",
+                    "name": "Certificate Upload Operations",
+                    "category": "SSL and Domains",
+                    "author": "",
+                    "description": "Shows all the SSL Certificate Upload Success and Failure operations",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/backupFailures",
+            "name": "backupFailures",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "backupFailures",
+                    "name": "Check Backup Failures",
+                    "category": "Configuration and Management",
+                    "author": "",
+                    "description": "Analyzes backup operations for Web App (Windows) & (Linux).",
+                    "type": "Detector",
+                    "supportTopicList": [
+                        {
+                            "id": "32542208",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32589276",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                    ],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/bestpracticesuggestions",
+            "name": "bestpracticesuggestions",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "bestpracticesuggestions",
+                    "name": "Check Best Practices for Prod Apps",
+                    "category": null,
+                    "author": "",
+                    "description": "Evaluating this web application to determine if it follows the best practices for enhanced stability and reliability.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/swap",
+            "name": "swap",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "swap",
+                    "name": "Check Swap Operations",
+                    "category": "Configuration and Management",
+                    "author": "",
+                    "description": "Checks for deployment slot swap operations and reasons why they failed",
+                    "type": "Detector",
+                    "supportTopicList": [
+                        {
+                            "id": "32581615",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32581615",
+                            "pesId": "16170",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32581615",
+                            "pesId": "16333",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                    ],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/clientcertificateloadfailures",
+            "name": "clientcertificateloadfailures",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "clientcertificateloadfailures",
+                    "name": "Client Certificate Failures",
+                    "category": "SSL and Domains",
+                    "author": "",
+                    "description": "This tool checks for client certificates load failures.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/coldstarts",
+            "name": "coldstarts",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "coldstarts",
+                    "name": "Cold Starts",
+                    "category": null,
+                    "author": "",
+                    "description": "This view helps you identify the cold-start time for your app (i.e. the time it took to serve the first request)",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": [
+                        "appDownAnalysis",
+                        "perfAnalysis"
+                    ],
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/CpuDrillDown",
+            "name": "CpuDrillDown",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "CpuDrillDown",
+                    "name": "CPU Drill Down",
+                    "category": null,
+                    "author": "",
+                    "description": "This is the new diagnostics experience to help you drill down CPU utilization on each instance serving your app and to identify the app and the corresponding process causing High CPU",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/CustomDomainAddFailureOnPortal",
+            "name": "CustomDomainAddFailureOnPortal",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "CustomDomainAddFailureOnPortal",
+                    "name": "Custom Domain Add Operations",
+                    "category": "SSL and Domains",
+                    "author": "",
+                    "description": "Checks any attempts to add a custom domain via the Azure Portal, lists the domains that failed to add to the site, and recommends actions to take to rectify the issue.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/AzureServiceManagementAPIUsage",
+            "name": "AzureServiceManagementAPIUsage",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "AzureServiceManagementAPIUsage",
+                    "name": "Deprecating APIs",
+                    "category": "Configuration and Management",
+                    "author": "",
+                    "description": "Determines if there have been any calls to soon to be deprecated APIs for the web app or associated resources.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/VerifyMultiInstanceWebApp",
+            "name": "VerifyMultiInstanceWebApp",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "VerifyMultiInstanceWebApp",
+                    "name": "Distributing Web App",
+                    "category": null,
+                    "author": "",
+                    "description": "Checks to see if the webapp runs on more than one instance.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/webappcpu",
+            "name": "webappcpu",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "webappcpu",
+                    "name": "High CPU Analysis",
+                    "category": "Availability and Performance",
+                    "author": "",
+                    "description": "This is the new diagnostics experience to analyze CPU usage of your App on all instances and see a breakdown of usage of all apps on your server farm",
+                    "type": "Analysis",
+                    "supportTopicList": [
+                        {
+                            "id": "32583701",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                    ],
+                    "analysisTypes": [
+                        "appDownAnalysis",
+                        "perfAnalysis"
+                    ],
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/restrictipaddress",
+            "name": "restrictipaddress",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "restrictipaddress",
+                    "name": "How to restrict certain IP addresses to access the web app?",
+                    "category": null,
+                    "author": "",
+                    "description": "",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/http4xx",
+            "name": "http4xx",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "http4xx",
+                    "name": "HTTP 4xx Errors",
+                    "category": "Availability and Performance",
+                    "author": "",
+                    "description": "This view helps you identify all the HTTP 4XX requests for your app and provides insights on common solutions that you can take to further investigate and resolve these errors.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": [
+                        "appDownAnalysis"
+                    ],
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/httpservererrors",
+            "name": "httpservererrors",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "httpservererrors",
+                    "name": "HTTP Server Errors",
+                    "category": null,
+                    "author": "",
+                    "description": "This view helps you identify all the failed requests for your app and provides insights on common solutions that one can take to resolve these errors",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": [
+                        "appDownAnalysis"
+                    ],
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/inaccessiblecerts",
+            "name": "inaccessiblecerts",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "inaccessiblecerts",
+                    "name": "Inaccessible Certificates",
+                    "category": "SSL and Domains",
+                    "author": "",
+                    "description": "Shows all certs that cannot be bound to any web app.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/instancecpu",
+            "name": "instancecpu",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "instancecpu",
+                    "name": "instance cpu",
+                    "category": null,
+                    "author": "",
+                    "description": "",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/ipconfiguration",
+            "name": "ipconfiguration",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "ipconfiguration",
+                    "name": "IP Address Configuration",
+                    "category": "Configuration and Management",
+                    "author": "",
+                    "description": "Find out the inbound and outbound IP configuration for your App and answers to most common questions. Expand the below items to know more...",
+                    "type": "Detector",
+                    "supportTopicList": [
+                        {
+                            "id": "32542210",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32589281",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32542210",
+                            "pesId": "16170",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                    ],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/Brazil_IP_Change",
+            "name": "Brazil_IP_Change",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "Brazil_IP_Change",
+                    "name": "IP Address Deprecation",
+                    "category": null,
+                    "author": "",
+                    "description": "Checks if you are impacted by the recent IP release activity and suggests actions to take if not already done",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/Memoryusage",
+            "name": "Memoryusage",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "Memoryusage",
+                    "name": "Memory Analysis",
+                    "category": "Availability and Performance",
+                    "author": "",
+                    "description": "Analyze High memory usage for your app and drill down further to identify app or process consuming high memory",
+                    "type": "Analysis",
+                    "supportTopicList": [
+                        {
+                            "id": "32581616",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                    ],
+                    "analysisTypes": [
+                        "appDownAnalysis",
+                        "perfAnalysis"
+                    ],
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/Migration",
+            "name": "Migration",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "Migration",
+                    "name": "Migration Operations",
+                    "category": "Configuration and Management",
+                    "author": "",
+                    "description": "Analyze failed migration operations of a subscription in a given time frame",
+                    "type": "Detector",
+                    "supportTopicList": [
+                        {
+                            "id": "32581619",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                    ],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/MinTlsVersionChecker",
+            "name": "MinTlsVersionChecker",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "MinTlsVersionChecker",
+                    "name": "Minimum TLS Version Checker",
+                    "category": "Configuration and Management",
+                    "author": "",
+                    "description": "",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/navigator",
+            "name": "navigator",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "navigator",
+                    "name": "Navigator",
+                    "category": null,
+                    "author": "",
+                    "description": "This view will show the changes made to your web app and its dependent Azure resources",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/premiumskuenabled",
+            "name": "premiumskuenabled",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "premiumskuenabled",
+                    "name": "Premium SKU Availability Check",
+                    "category": null,
+                    "author": "",
+                    "description": "This tool checks whether the app can be scaled to Premium SKU or not",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/privatebytes",
+            "name": "privatebytes",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "privatebytes",
+                    "name": "privatebytes",
+                    "category": null,
+                    "author": "",
+                    "description": "",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/SKUCheckForApp",
+            "name": "SKUCheckForApp",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "SKUCheckForApp",
+                    "name": "Production SKU used",
+                    "category": null,
+                    "author": "",
+                    "description": "Checks to see if the webapp is running on a SKU that is appropriate to host production workload.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/requestsanderrors",
+            "name": "requestsanderrors",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "requestsanderrors",
+                    "name": "requestsanderrors",
+                    "category": null,
+                    "author": "",
+                    "description": "",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/configuringsslandcustomdomains",
+            "name": "configuringsslandcustomdomains",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "configuringsslandcustomdomains",
+                    "name": "Run All Certificates & Domains checks",
+                    "category": "SSL and Domains",
+                    "author": "",
+                    "description": "Using this view you can diagnose Certificate and Custom Domain configuration for your App",
+                    "type": "Detector",
+                    "supportTopicList": [
+                        {
+                            "id": "32440123",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32589277",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32440122",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32440123",
+                            "pesId": "16170",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32589277",
+                            "pesId": "16170",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32440122",
+                            "pesId": "16170",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32440123",
+                            "pesId": "16333",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32589277",
+                            "pesId": "16333",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32440122",
+                            "pesId": "16333",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                    ],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/ScaleCapacityCheck",
+            "name": "ScaleCapacityCheck",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "ScaleCapacityCheck",
+                    "name": "Scale Capacity Check",
+                    "category": null,
+                    "author": "",
+                    "description": "Checks to see if App Service Plan hosting the webapp has capacity to accomodate potential scaleout operation.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/autoscalingoperations",
+            "name": "autoscalingoperations",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "autoscalingoperations",
+                    "name": "Scaling Operations",
+                    "category": "Configuration and Management",
+                    "author": "",
+                    "description": "Find out all Manual and AutoScaling operations for the web app",
+                    "type": "Detector",
+                    "supportTopicList": [
+                        {
+                            "id": "32542211",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32542211",
+                            "pesId": "16170",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32542211",
+                            "pesId": "16333",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32589283",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                    ],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/siteLoadGraph",
+            "name": "siteLoadGraph",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "siteLoadGraph",
+                    "name": "Site Load Graph",
+                    "category": null,
+                    "author": "",
+                    "description": "",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/500.121Check",
+            "name": "500.121Check",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "500.121Check",
+                    "name": "Slow Request Check",
+                    "category": null,
+                    "author": "",
+                    "description": "Check for 500.121 returned by the app.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/webappslow",
+            "name": "webappslow",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "webappslow",
+                    "name": "Slow Request Excecution",
+                    "category": null,
+                    "author": "",
+                    "description": "This is the new app services diagnostics experience to troubleshoot slow responding apps",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": [
+                        "perfAnalysis"
+                    ],
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/app_subscriptioninfo",
+            "name": "app_subscriptioninfo",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "app_subscriptioninfo",
+                    "name": "Subscription Info",
+                    "category": null,
+                    "author": "",
+                    "description": "Information about the subscription.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/tcpconnections",
+            "name": "tcpconnections",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "tcpconnections",
+                    "name": "TCP Connections",
+                    "category": "Availability and Performance",
+                    "author": "",
+                    "description": "TCP Connections Analysis",
+                    "type": "Analysis",
+                    "supportTopicList": [],
+                    "analysisTypes": [
+                        "appDownAnalysis",
+                        "perfAnalysis"
+                    ],
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/TempFileUsageOnWorkers",
+            "name": "TempFileUsageOnWorkers",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "TempFileUsageOnWorkers",
+                    "name": "Temp File Usage On Workers",
+                    "category": null,
+                    "author": "",
+                    "description": "Checks and verifies if the Temp File System usage on worker instance is nearing their quota limit. Temp files are located in 'D:\\local\\Temp' and 'D:\\local\\AppData' folder. This does not account for site's content.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": [
+                        "appDownAnalysis",
+                        "perfAnalysis"
+                    ],
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/testnav",
+            "name": "testnav",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "testnav",
+                    "name": "testnav",
+                    "category": null,
+                    "author": "",
+                    "description": "",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/DeploymentSlotCheck",
+            "name": "DeploymentSlotCheck",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "DeploymentSlotCheck",
+                    "name": "Using Deployment Slots",
+                    "category": null,
+                    "author": "",
+                    "description": "Checks to see if the site has deployment slots configured.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/TMUtilization",
+            "name": "TMUtilization",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "TMUtilization",
+                    "name": "Utilizing Azure Traffic Manager",
+                    "category": null,
+                    "author": "",
+                    "description": "Checks to see if the site is utilizing Traffic Manager.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/MSDeployTasks",
+            "name": "MSDeployTasks",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "MSDeployTasks",
+                    "name": "Visual Studio Deployments",
+                    "category": "Deployment",
+                    "author": "",
+                    "description": "Check for Visual Studio deployment operations and the reasons why they failed",
+                    "type": "Detector",
+                    "supportTopicList": [
+                        {
+                            "id": "32588774",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                    ],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/appDownAnalysis",
+            "name": "appDownAnalysis",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "appDownAnalysis",
+                    "name": "Web App Down",
+                    "category": "Availability and Performance",
+                    "author": "",
+                    "description": "Analyze App and Platform availability and monitor the requests and failures to your app",
+                    "type": "Analysis",
+                    "supportTopicList": [
+                        {
+                            "id": "32542218",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                    ],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/webapprestart",
+            "name": "webapprestart",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "webapprestart",
+                    "name": "Web App Restarted",
+                    "category": "Availability and Performance",
+                    "author": "",
+                    "description": "See timeline of Web App or Function restarts as well as the cause of the restart.",
+                    "type": "Analysis",
+                    "supportTopicList": [
+                        {
+                            "id": "32630467",
+                            "pesId": "16072",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                            "id": "32570954",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                    ],
+                    "analysisTypes": [
+                        "appDownAnalysis",
+                        "perfAnalysis"
+                    ],
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/perfAnalysis",
+            "name": "perfAnalysis",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "perfAnalysis",
+                    "name": "Web App Slow",
+                    "category": "Availability and Performance",
+                    "author": "",
+                    "description": "Check App latency and analyze common patterns that cause your app to respond slowly",
+                    "type": "Analysis",
+                    "supportTopicList": [
+                        {
+                            "id": "32457411",
+                            "pesId": "14748",
+                            "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                    ],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/checkipconfiguration",
+            "name": "checkipconfiguration",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "checkipconfiguration",
+                    "name": "What IP Address is my App using?",
+                    "category": null,
+                    "author": "",
+                    "description": "Find out the inbound and outbound IP configuration for a Web App",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/inboundtcpports",
+            "name": "inboundtcpports",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "inboundtcpports",
+                    "name": "What network ports are open for inbound traffic?",
+                    "category": null,
+                    "author": "",
+                    "description": "The below shows the list and the purpose of the Inbound ports that are required by Azure App Service.",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        },
+        {
+            "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/ipaddressrestrictions",
+            "name": "ipaddressrestrictions",
+            "type": "Microsoft.Web/sites/detectors",
+            "location": "South Central US",
+            "properties": {
+                "metadata": {
+                    "id": "ipaddressrestrictions",
+                    "name": "Which client IPs got rejected due to IP restriction?",
+                    "category": "Configuration and Management",
+                    "author": "",
+                    "description": "IP addresses rejected due to IP address restrictions configured on the app",
+                    "type": "Detector",
+                    "supportTopicList": [],
+                    "analysisTypes": null,
+                    "score": 0.0,
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "dataset": [],
+                "status": {
+                    "message": null,
+                    "statusId": 4
+                },
+                "dataProvidersMetadata": null,
+                "suggestedUtterances": null
+            }
+        }
+    ],
+    "nextLink": null,
+    "id": null
+}
+
+
+{
+    "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/requestsanderrors",
+    "name": "requestsanderrors",
+    "type": "Microsoft.Web/sites/detectors",
+    "location": "South Central US",
+    "properties": {
+        "metadata": {
+            "id": "requestsanderrors",
+            "name": "requestsanderrors",
+            "description": "",
+            "author": "",
+            "category": null,
+            "supportTopicList": [],
+            "analysisTypes": null,
+            "type": "Detector",
+            "score": 0.0,
+            "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        "dataset": [
+            {
+                "table": {
+                    "tableName": "Table_0",
+                    "columns": [
+                        {
+                            "columnName": "PreciseTimeStamp",
+                            "dataType": "DateTime",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Http2xx",
+                            "dataType": "Int64",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Http3xx",
+                            "dataType": "Int64",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Http4xx",
+                            "dataType": "Int64",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Http5xx",
+                            "dataType": "Int64",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": []
+                },
+                "renderingProperties": {
+                    "defaultValue": 0,
+                    "graphType": 2,
+                    "graphOptions": {
+                        "color": [
+                            "#4ac0f5",
+                            "#84bb00",
+                            "#9b5196",
+                            "#ff8c00",
+                            "#ff0000"
+                        ],
+                        "height": 300,
+                        "yAxis": {
+                            "axisLabel": "Request Count"
+                        }
+                    },
+                    "timestampColumnName": null,
+                    "roleInstanceColumnName": null,
+                    "seriesColumns": null,
+                    "type": 2,
+                    "title": null,
+                    "description": null
+                }
+            },
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [
+                        {
+                            "columnName": "Status",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Message",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Name",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Value",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Expanded",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Solutions",
+                            "dataType": "String",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": [
+                        [
+                            "Success",
+                            "Your Web App is currently running healthy. Check out \"View Full Report\" if you would like to check the availability of your Web App from the last 24 hours.",
+                            "",
+                            "",
+                            "False",
+                            "null"
+                        ]
+                    ]
+                },
+                "renderingProperties": {
+                    "type": 7,
+                    "title": null,
+                    "description": null
+                }
+            }
+        ],
+        "status": {
+            "message": null,
+            "statusId": 3
+        },
+        "dataProvidersMetadata": null,
+        "suggestedUtterances": null
+    }
+}
+//https://management.azure.com/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourcegroups/book-rental-xiaoxu-rg/providers/microsoft.web/sites/book-rental-xiaoxu/detectors/AlwaysOnCheckForBestPractice?startTime=2019-08-03%2007:14&endTime=2019-08-04%2007:14&api-version=2015-08-01
+{
+    "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/AlwaysOnCheckForBestPractice",
+    "name": "AlwaysOnCheckForBestPractice",
+    "type": "Microsoft.Web/sites/detectors",
+    "location": "South Central US",
+    "properties": {
+        "metadata": {
+            "id": "AlwaysOnCheckForBestPractice",
+            "name": "AlwaysOn Check",
+            "author": "",
+            "description": "Checks to see if AlwaysOn is enabled or not.",
+            "category": null,
+            "supportTopicList": [],
+            "analysisTypes": null,
+            "type": "Detector",
+            "score": 0.0,
+            "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        "dataset": [
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [
+                        {
+                            "columnName": "Status",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Message",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Name",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Value",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Expanded",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Solutions",
+                            "dataType": "String",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": [
+                        [
+                            "Critical",
+                            "AlwaysOn Disabled",
+                            "Scenario",
+                            "If the site is inactive for an extended period of time, the process associated with it is shut down to conserve resources. Subsequent requests following a long idle time, may take longer to respond as the process has to be re-started and the site re-initialized.",
+                            "False",
+                            "null"
+                        ],
+                        [
+                            "Critical",
+                            "AlwaysOn Disabled",
+                            "Solution",
+                            "<markdown>For applications that are accessed infrequently and are sensitive to start-up delay's, please enable AlwaysOn by following the steps below.\n\n1. Navigate to the webapp on Azure Portal.\n2. Scroll down in the left hand side menu and click on <b>Configuration</b>.\n3. Navigate to <b>General settings</b> tab. \n4. Set <b>Always on</b> to On under <b>Platform settings</b>.\n5. Click on Save. \n</markdown>",
+                            "False",
+                            "null"
+                        ]
+                    ]
+                },
+                "renderingProperties": {
+                    "type": 7,
+                    "title": null,
+                    "description": null
+                }
+            }
+        ],
+        "status": {
+            "message": null,
+            "statusId": 0
+        },
+        "dataProvidersMetadata": null,
+        "suggestedUtterances": null
+    }
+}
+//https://management.azure.com/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourcegroups/book-rental-xiaoxu-rg/providers/microsoft.web/sites/book-rental-xiaoxu/detectors/AlwaysOnCheckForBestPractice?startTime=2019-08-03%2019:13&endTime=2019-08-04%2019:13&api-version=2015-08-01
+{
+    "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/AlwaysOnCheckForBestPractice",
+    "name": "AlwaysOnCheckForBestPractice",
+    "type": "Microsoft.Web/sites/detectors",
+    "location": "South Central US",
+    "properties": {
+        "metadata": {
+            "id": "AlwaysOnCheckForBestPractice",
+            "name": "AlwaysOn Check",
+            "author": "",
+            "description": "Checks to see if AlwaysOn is enabled or not.",
+            "category": null,
+            "supportTopicList": [],
+            "analysisTypes": null,
+            "type": "Detector",
+            "score": 0.0,
+            "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        "dataset": [
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [
+                        {
+                            "columnName": "Status",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Message",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Name",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Value",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Expanded",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Solutions",
+                            "dataType": "String",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": [
+                        [
+                            "Critical",
+                            "AlwaysOn Disabled",
+                            "Scenario",
+                            "If the site is inactive for an extended period of time, the process associated with it is shut down to conserve resources. Subsequent requests following a long idle time, may take longer to respond as the process has to be re-started and the site re-initialized.",
+                            "False",
+                            "null"
+                        ],
+                        [
+                            "Critical",
+                            "AlwaysOn Disabled",
+                            "Solution",
+                            "<markdown>For applications that are accessed infrequently and are sensitive to start-up delay's, please enable AlwaysOn by following the steps below.\n\n1. Navigate to the webapp on Azure Portal.\n2. Scroll down in the left hand side menu and click on <b>Configuration</b>.\n3. Navigate to <b>General settings</b> tab. \n4. Set <b>Always on</b> to On under <b>Platform settings</b>.\n5. Click on Save. \n</markdown>",
+                            "False",
+                            "null"
+                        ]
+                    ]
+                },
+                "renderingProperties": {
+                    "type": 7,
+                    "title": null,
+                    "description": null
+                }
+            }
+        ],
+        "status": {
+            "message": null,
+            "statusId": 0
+        },
+        "dataProvidersMetadata": null,
+        "suggestedUtterances": null
+    }
+}
+
+
+{
+    "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/ARRAffinityCheck",
+    "name": "ARRAffinityCheck",
+    "type": "Microsoft.Web/sites/detectors",
+    "location": "South Central US",
+    "properties": {
+        "metadata": {
+            "id": "ARRAffinityCheck",
+            "name": "ARR Affinity Check",
+            "author": "",
+            "description": "Checks to see if the site has ARRAffinity configured.",
+            "category": null,
+            "type": "Detector",
+            "supportTopicList": [],
+            "analysisTypes": null,
+            "score": 0.0,
+            "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        "dataset": [
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [
+                        {
+                            "columnName": "Status",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Message",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Name",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Value",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Expanded",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Solutions",
+                            "dataType": "String",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": [
+                        [
+                            "Warning",
+                            "ARR Affinity is Enabled",
+                            "Scenario",
+                            "With ARR Affinity enabled, a client is tied to a specific web worker resulting in unequal distribution of traffic across various worker instances.",
+                            "False",
+                            "null"
+                        ],
+                        [
+                            "Warning",
+                            "ARR Affinity is Enabled",
+                            "Solution",
+                            "Some applications need the client to be tied to a worker for them to work e.g.. Applications using In-Process session. If this is not the case, disable ARR Affinity to achieve a more even load distribution.",
+                            "False",
+                            "null"
+                        ],
+                        [
+                            "Warning",
+                            "ARR Affinity is Enabled",
+                            "Learn more",
+                            "<a target =\"_blank\" href = \"https://blogs.msdn.microsoft.com/benjaminperkins/2016/06/03/setting-application-request-routing-arr-affinity-for-your-azure-app-service/\">Setting Application Request Routing – ARR Affinity for your Azure App Service</a>",
+                            "False",
+                            "null"
+                        ]
+                    ]
+                },
+                "renderingProperties": {
+                    "type": 7,
+                    "title": null,
+                    "description": null
+                }
+            }
+        ],
+        "status": {
+            "message": null,
+            "statusId": 1
+        },
+        "dataProvidersMetadata": null,
+        "suggestedUtterances": null
+    }
+}
+
+
+
+{
+    "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/backupFailures",
+    "name": "backupFailures",
+    "type": "Microsoft.Web/sites/detectors",
+    "location": "South Central US",
+    "properties": {
+        "metadata": {
+            "id": "backupFailures",
+            "name": "Check Backup Failures",
+            "author": "",
+            "description": "Analyzes backup operations for Web App (Windows) & (Linux).",
+            "category": "Configuration and Management",
+            "supportTopicList": [
+                {
+                    "id": "32542208",
+                    "pesId": "14748",
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                    "id": "32589276",
+                    "pesId": "14748",
+                    "typeId": "Diagnostics.ModelsAndUtils.Attributes.SupportTopic, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+            ],
+            "analysisTypes": null,
+            "type": "Detector",
+            "score": 0.0,
+            "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        "dataset": [
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [
+                        {
+                            "columnName": "Status",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Message",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Name",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Value",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Expanded",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Solutions",
+                            "dataType": "String",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": [
+                        [
+                            "Warning",
+                            "No backups ran for this app in 24 hrs time period",
+                            "Recommended Action ",
+                            "We recommend that you setup automated daily backups for all your critical apps. In case of accidental data loss or corruption, these backups will save you a lot of pain. The following link explains the process in detail ",
+                            "False",
+                            "null"
+                        ],
+                        [
+                            "Warning",
+                            "No backups ran for this app in 24 hrs time period",
+                            "Learn more: ",
+                            "<a href=\"https://docs.microsoft.com/en-us/azure/app-service/web-sites-backup\" target=\"_blank\">How to backup your app in Azure!</a> ",
+                            "False",
+                            "null"
+                        ]
+                    ]
+                },
+                "renderingProperties": {
+                    "type": 7,
+                    "title": null,
+                    "description": null
+                }
+            },
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [
+                        {
+                            "columnName": "Markdown",
+                            "dataType": "String",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": [
+                        [
+                            "    \n    + <a href=\"https://blogs.msdn.microsoft.com/appserviceteam/2018/01/02/my-backups-are-failing/\" target=\"_blank\">Troubleshooting Backup Issues - common errors and fixes</a>\n    + <a href=\"http://zainrizvi.io/2015/06/05/creating-partial-backups-of-your-site-with-azure-web-apps/\" target=\"_blank\">Backup a Web App - Requirements, Restrictions and More</a>\n    + <a href=\"https://docs.microsoft.com/en-in/azure/app-service/web-sites-restore\" target=\"_blank\">How to Restore a Web App</a>\n    + <a href=\"https://docs.microsoft.com/en-in/azure/app-service/web-sites-backup\" target=\"_blank\">How to exclude files from the backup process and choosing to backup only what is needed</a>\n    \n    "
+                        ]
+                    ]
+                },
+                "renderingProperties": {
+                    "enableEmailButtons": false,
+                    "isContainerNeeded": true,
+                    "type": 9,
+                    "title": "Recommended documents on Backup and Restore",
+                    "description": null
+                }
+            }
+        ],
+        "status": {
+            "message": null,
+            "statusId": 1
+        },
+        "dataProvidersMetadata": null,
+        "suggestedUtterances": null
+    }
+}
+
+
+{
+    "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/CustomDomainAndSSL",
+    "name": "CustomDomainAndSSL",
+    "type": "Microsoft.Web/sites/detectors",
+    "location": "South Central US",
+    "properties": {
+        "metadata": {
+            "id": "CustomDomainAndSSL",
+            "name": "Binding & SSL Configuration",
+            "author": "",
+            "description": "Analyze the DNS and Server Certificate configured on a site and detect possible misconfigurations",
+            "category": "SSL and Domains",
+            "type": "Detector",
+            "supportTopicList": [],
+            "analysisTypes": null,
+            "score": 0.0,
+            "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        "dataset": [
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [
+                        {
+                            "columnName": "Status",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Message",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Name",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Value",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Expanded",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Solutions",
+                            "dataType": "String",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": [
+                        [
+                            "Warning",
+                            "No custom hostnames configured on the site",
+                            "",
+                            "",
+                            "False",
+                            "null"
+                        ]
+                    ]
+                },
+                "renderingProperties": {
+                    "type": 7,
+                    "title": null,
+                    "description": null
+                }
+            },
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [
+                        {
+                            "columnName": "Markdown",
+                            "dataType": "String",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": [
+                        [
+                            "\n        ### What if the hostname that I was looking for is not listed here?\n        In case you are attempting to browse to the website on a URL that does not appear in this report, please add a custom domain binding for that URL and configure an appropriate PFX certificate against it for the site to start responding on the URL.\n\n        For production applications, we highly recommend that you configure a user friendly custom domain and protect it with SSL via a PFX certificate. The certificate can either be purchased within Azure via **App Service Certificate** or from a Trusted Third Party provider and uploaded to Azure.\n\n        > Note : Traffic Manager hostnames and Wildcard hostnames are excluded from the investigation.\n\n        Please refer to the following documents in case you need assistance configuring a custom hostname and associating a PFX certificate with it.\n        + <a target='_blank' href='https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain'>Map an existing custom DNS name to Azure Web Apps</a>\n        + <a target='_blank' href='https://docs.microsoft.com/en-us/azure/app-service/custom-dns-web-site-buydomains-web-app'>Map a custom domain via App Service Domain to the website</a>\n\n        ------\n\n        "
+                        ]
+                    ]
+                },
+                "renderingProperties": {
+                    "enableEmailButtons": false,
+                    "isContainerNeeded": true,
+                    "type": 9,
+                    "title": "Frequently Asked Questions",
+                    "description": null
+                }
+            }
+        ],
+        "status": {
+            "message": null,
+            "statusId": 1
+        },
+        "dataProvidersMetadata": null,
+        "suggestedUtterances": null
+    }
+}
+
+
+{
+    "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/AzureServiceManagementAPIUsage",
+    "name": "AzureServiceManagementAPIUsage",
+    "type": "Microsoft.Web/sites/detectors",
+    "location": "South Central US",
+    "properties": {
+        "metadata": {
+            "id": "AzureServiceManagementAPIUsage",
+            "name": "Deprecating APIs",
+            "author": "",
+            "description": "Determines if there have been any calls to soon to be deprecated APIs for the web app or associated resources.",
+            "category": "Configuration and Management",
+            "supportTopicList": [],
+            "analysisTypes": null,
+            "type": "Detector",
+            "score": 0.0,
+            "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        "dataset": [
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [
+                        {
+                            "columnName": "Status",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Message",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Name",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Value",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Expanded",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Solutions",
+                            "dataType": "String",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": [
+                        [
+                            "Info",
+                            "Service Management APIs for Azure Web Apps will be deprecated June 30, 2018. This does not affect any other Azure Service. Please switch over any automation using clients identified below to the Azure Resource Management counterparts.",
+                            "Learn more about the announcement: ",
+                            "<a href=\"https://blogs.msdn.microsoft.com/appserviceteam/2018/03/12/deprecating-service-management-apis-support-for-azure-app-services\" target=\"_blank\">Deprecating Service Management APIs support for Azure App Services</a>",
+                            "False",
+                            "null"
+                        ]
+                    ]
+                },
+                "renderingProperties": {
+                    "type": 7,
+                    "title": null,
+                    "description": null
+                }
+            },
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [
+                        {
+                            "columnName": "Status",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Message",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Name",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Value",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Expanded",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Solutions",
+                            "dataType": "String",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": [
+                        [
+                            "Success",
+                            "No Service Management APIs called for web app 'book-rental-xiaoxu'",
+                            "",
+                            "",
+                            "False",
+                            "null"
+                        ]
+                    ]
+                },
+                "renderingProperties": {
+                    "type": 7,
+                    "title": null,
+                    "description": null
+                }
+            },
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [
+                        {
+                            "columnName": "Status",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Message",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Name",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Value",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Expanded",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Solutions",
+                            "dataType": "String",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": [
+                        [
+                            "Success",
+                            "No Service Management APIs called for app service plan 'book-rental-xiaoxu-plan'",
+                            "",
+                            "",
+                            "False",
+                            "null"
+                        ]
+                    ]
+                },
+                "renderingProperties": {
+                    "type": 7,
+                    "title": null,
+                    "description": null
+                }
+            },
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [
+                        {
+                            "columnName": "Status",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Message",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Name",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Data.Value",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Expanded",
+                            "dataType": "String",
+                            "columnType": null
+                        },
+                        {
+                            "columnName": "Solutions",
+                            "dataType": "String",
+                            "columnType": null
+                        }
+                    ],
+                    "rows": [
+                        [
+                            "Success",
+                            "No Service Management APIs called for webspace 'book-rental-xiaoxu-rg-SouthCentralUSwebspace'",
+                            "",
+                            "",
+                            "False",
+                            "null"
+                        ]
+                    ]
+                },
+                "renderingProperties": {
+                    "type": 7,
+                    "title": null,
+                    "description": null
+                }
+            }
+        ],
+        "status": {
+            "message": null,
+            "statusId": 2
+        },
+        "dataProvidersMetadata": null,
+        "suggestedUtterances": null
+    }
+}
+
+{
+    "id": "/subscriptions/b0df16b3-2479-4555-a1f1-7e5a5092c7d6/resourceGroups/book-rental-xiaoxu-rg/providers/Microsoft.Web/sites/book-rental-xiaoxu/detectors/ParentAvailabilityAndPerformance",
+    "name": "ParentAvailabilityAndPerformance",
+    "type": "Microsoft.Web/sites/detectors",
+    "location": "South Central US",
+    "properties": {
+        "metadata": {
+            "id": "ParentAvailabilityAndPerformance",
+            "name": "Best Practices for Availability & Performance",
+            "author": "",
+            "description": "Check best practices for Availability and Performance.",
+            "category": "Best Practices",
+            "type": "Detector",
+            "supportTopicList": [],
+            "analysisTypes": null,
+            "score": 0.0,
+            "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        "dataset": [
+            {
+                "table": {
+                    "tableName": "",
+                    "columns": [],
+                    "rows": []
+                },
+                "renderingProperties": {
+                    "detectorIds": [
+                        "AlwaysOnCheckForBestPractice",
+                        "SKUCheckForApp",
+                        "VerifyMultiInstanceWebApp",
+                        "TMUtilization",
+                        "ARRAffinityCheck",
+                        "500.121Check",
+                        "TempFileUsageOnWorkers",
+                        "ActiveSitesOnASP",
+                        "AutoHealCheckForBestPractice",
+                        "AppServiceAdvisorRecommendations"
+                    ],
+                    "messageIfCritical": null,
+                    "type": 10,
+                    "title": null,
+                    "description": null
+                }
+            }
+        ],
+        "status": {
+            "message": null,
+            "statusId": 4
+        },
+        "dataProvidersMetadata": null,
+        "suggestedUtterances": null
+    }
+}
